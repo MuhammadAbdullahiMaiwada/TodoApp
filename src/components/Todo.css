@@ -1,0 +1,193 @@
+.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.todo-form button {
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    background: #f3f3f3;
+    padding: 13px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.todo-item p {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.action button {
+    margin-left: 8px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.todo-list {
+    margin-top: 10px;
+}
+
+.empty {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+/* Todo Form */
+.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.todo-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #0f1b2b;
+    color: #e6eef8;
+}
+
+.todo-form select {
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    background: #0f1b2b;
+    color: #e6eef8;
+}
+
+.todo-form button {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    background: #06b6d4;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* TodoList */
+.todo-lists {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.emptys {
+    color: #9fb0c8;
+    text-align: center;
+}
+
+.todo-items {
+    background: #071122;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform .08s ease;
+}
+
+.todo-items:hover {
+    transform: translateY(-2pxx);
+}
+
+/* color-coded deadline  */
+.todo-items.expired {
+    border-left: 6px solid #ff3b30;
+}
+
+.todo-items.due-today {
+    border-left: 6px solid #ff9500;
+}
+
+.todo-items.future {
+    border-left: 6px solid #10b981;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.row .main {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.row .text {
+    font-weight: 700;
+}
+
+.row .reminder {
+    color: #ffb86b;
+    font-size: 13px;
+}
+
+/* completed */
+.todo-items.completed.text {
+    text-decoration: line-through;
+    color: #6b7280;
+}
+
+/* right  side*/
+.right button {
+    background: #0b2a3a;
+    color: #cfeffb;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+/* edit row */
+.edit-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.edit-row input,
+.edit-row select {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+.edit-action button {
+    padding: 8px 10px;
+    margin-left: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}

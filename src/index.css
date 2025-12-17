@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  font-family: Inter, Arial, Arial, Helvetica, sans-serif;
+  background: #0f1720;
+  color: #e6eef8;
+}
+.container{
+  width: 95%;
+  max-width: 780px;
+  margin: 28px auto;
+  padding: 20px;
+  background: #0b1220;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+}
+.container h1{
+  margin: 0 0 12px;
+  text-align: center;
+}
+.top-controls{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-controls .search input{
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  width: 220px;
+}
+.top-controls .sort select{
+  padding: 8px;
+  border-radius: 8px;
+}
+.clear-btn{
+  margin-top: 14px;
+  background: #ff5555;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+.note{
+  margin-top: 12px;
+  color: #9fb0c8;
+  font-size: 13px;
+  text-align: center;
+}
