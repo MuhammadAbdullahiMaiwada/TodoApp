@@ -1,5 +1,5 @@
 import Toast from "./Toast";
-import "./toast.css";
+
 export default function ToastContainer({ toasts, removeToast }) {
   return (
     <div className="toast-container">
